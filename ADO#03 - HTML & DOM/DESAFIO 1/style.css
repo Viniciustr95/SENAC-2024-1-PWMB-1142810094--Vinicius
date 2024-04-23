@@ -1,0 +1,24 @@
+body{
+    font: normal 20pt Arial;
+}
+section{
+    background-color:chartreuse;
+    width: 700px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px;
+}
+h1,footer{
+    text-align: center;
+}
+input{
+    font:normal 14pt Arial
+}
+img{
+    max-width: 300px;
+    max-height: 200px;
+  }
+  
+
+
+
