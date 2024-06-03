@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holtelz </title>
+
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>H</span>oltelz</a>
+        <nav class="navbar">
+             <a href="#home">home</a>
+             <a href="#packages">Pacotes</a>
+             <a href="#services">Serviços</a>
+             <a href="#gallery">Destinos</a>
+             <a href="#review">Avalaiações</a>
+             <a href="#contact">Contato</a>
+             <a href="#book">Reserve agora</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+
+
+
+
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+         <h3>login</h3>
+         <input type="email" class="box" placeholder="enter your email">
+         <input type="password" class="box" placeholder="enter your password">
+         <input type="submit" value="login now" class="btn">
+         <input type="checkbox" id="remember">
+         <label for="remember"> Manter Conectado?</label>
+        <p>Esqueceu sua senha? <a href="#">Clique aqui!</a></p>
+         <p>Ainda não tem uma conta? <a href="#">Cadastre-se agora!</a></p>
+    </form>
+</div>
+
+
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>Conheça os melhores hoteis ao redor do mundo</h3>
+        <p> Desfrute do conforto máximo. </p>
+        <a href="#" class="btn">Descubra mais</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src=""></span>
+        <span class="vid-btn" data-src="img/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="img/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="img/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="img/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="img/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>o</span>
+        <span>t</span>
+        <span>e</span>
+        <span>s</span>
+
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img decoding="async" src="imagens/mumbai.png" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                <p>O Grand Hyatt Mumbai Hotel é um resort no meio da cidade, distribuído por 12 hectares de vegetação em Santacruz.
+                     Nossa propriedade oferece quartos luxuosos, restaurantes de classe mundial, arte única, arquitetura grandiosa,    
+                    jardins deslumbrantes e uma série de instalações recreativas.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> R$90.00 <span>R$120.00</span></div>
+                <a href="#" class="btn">Reserve agora!</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="imagens/SYDNEY.png" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> sydney </h3>
+                <p>o W Hotel Sydney não é apenas um hotel é uma fuga urbana luxuosa. Fiel à essência de cada W Hotel, 
+                você pode antecipar espaços futuristas com design impecável que redefinem a ideia de luxo contemporâneo.
+                 Não se trata apenas de alojamento, mas trata-se de uma experiência luxuosa</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> R$90.00 <span>R$120.00</span></div>
+                <a href="#" class="btn">Reserve agora!</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="imagens/Hawaii.png" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> hawaii </h3>
+                <p> Esteja você procurando uma escapadela relaxante na praia ou férias repletas de aventura, 
+            os superstars dos hotéis três estrelas do Havaí são uma ótima opção para viajantes preocupados com o orçamento que ainda desejam experimentar tudo o que este belo estado insular tem a oferecer.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> R$90.00 <span>R$120.00</span></div>
+                <a href="#" class="btn">Reserve agora!</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="imagens/PARIS.png">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> paris </h3>
+                <p>Lutetia é um destino culinário em Saint-Germain há mais de um século. 
+                    Com locais famosos para escolher, os hóspedes podem esperar uma experiência que não é oferecida em nenhum outro lugar</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> R$90.00 <span>R$120.00</span></div>
+                <a href="#" class="btn">Reserve agora!</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="imagens/TOKYO.png" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> tokyo </h3>
+                <p>O Sunshine City Prince Hotel localizado no coração de Ikebukuro, 
+                um dos bairros mais vibrantes da cidade. Este hotel oferece uma combinação perfeita de conforto, conveniência e entretenimento.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> R$90.00 <span>R$120.00</span></div>
+                <a href="#" class="btn">Reserve agora!</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="imagens/EGITO (1).png" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> egito </h3>
+                <p>O Le Méridien Pyramids Hotel & Spa é uma excelente opção para pessoas que visitam Gizé, oferecendo um ambiente familiar e várias comodidades 
+                    que vão tornar a sua estadia mais especial.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> R$90.00 <span>R$120.00</span></div>
+                <a href="#" class="btn">Reserve agora!</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>ç</span>
+        <span>o</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+                <h3>Preços acessiveis</h3>
+                <p>Os melhores hoteis, com preços jamais vistos.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+                <h3>Comidas e Bebidas</h3>
+                <p> Hoteis com os melhores cardápios de comidas e bebidas tipicas da região, disponiveis 24 horas por dia,
+                     de acordo com a necessidade dos nossos clientes.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+                <h3> Guia de cidades</h3>
+                <p> Temos os guias perfeitos para você conhecer as melhores regiões do seu destino, 
+                    pontos turisticos, locais para câmbio de moeda e até mesmo locadoras de automóveis. </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+                <h3>Ao redor do mundo</h3>
+                <p> O nosso portifolio contém hoteis em todo o mundo, entre eles os mais luxuosos e 
+                    os mais acessiveis para a sua viagem ser ainda mais incrivel. </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+                <h3> Do Avião ao Hotel</h3>
+                <p> O trajeto mais rápido ao seu hotel, após a sua chegada ao aeroporto em tempo real. </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+                <h3> Aventuras</h3>
+                <p> Atrações dentro do próprio hotel, esportes, video games, e até mesmo passeios para esportes radicais.y</p>
+        </div>
+    </div>
+</section>
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>D</span>
+        <span>e</span>
+        <span>s</span>
+        <span>t</span>
+        <span>i</span>
+        <span>n</span>
+        <span>o</span>
+        <span>s</span>
+    </h1>
+
+
+<div class="box-container">
+    <div class="box">
+        <img decoding="async" src="imagens/canada.png" alt="">
+        <div class="content">
+            <h3>Lugares</h3>
+            <p>O Canadá é um país localizado na América do Norte, conhecido por sua vasta extensão territorial, paisagens naturais impressionantes e diversidade cultural..</p>
+            <a href="#" class="btn">Ver mais</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="imagens/Pais de gales.png" alt="">
+        <div class="content">
+            <h3>Lugares</h3>
+            <p>O País de Gales é uma das quatro nações constituintes do Reino Unido, conhecido por suas paisagens deslumbrantes, rica herança cultural e história distinta. Aqui estão alguns detalhes sobre o País de Gales:</p>
+            <a href="#" class="btn">Ver mais</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="imagens/Peru.png" alt="">
+        <div class="content">
+            <h3>Lugares</h3>
+            <p>O Peru é um país fascinante localizado na América do Sul, conhecido por sua rica história, diversidade cultural e geográfica.</p>
+            <a href="#" class="btn">Ver mais</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="imagens/Suiça.png" alt="">
+        <div class="content">
+            <h3>Lugares</h3>
+            <p>A Suíça é um país situado no centro da Europa, famoso por suas paisagens alpinas, estabilidade econômica e política, além de sua rica história e diversidade cultural.</p>
+            <a href="#" class="btn">Ver mais</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="imagens/Irlanda.png" alt="">
+        <div class="content">
+            <h3>Lugares</h3>
+            <p>A Irlanda é um país insular localizado na Europa Ocidental, conhecido por sua rica história, paisagens verdes e vibrante cultura.</p>
+            <a href="#" class="btn">Ver mais</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="imagens/Turquia.png" alt="">
+        <div class="content">
+            <h3>Lugares</h3>
+            <p>A Turquia é um país rico em história, cultura e diversidade geográfica.</p>
+            <a href="#" class="btn">Ver mais</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="imagens/Doha.png" alt="">
+        <div class="content">
+            <h3>Lugares</h3>
+            <p>A cidade tem uma rica herança cultural, refletida em locais como o Museu de Arte Islâmica e o Souq Waqif, um mercado tradicional. Além disso, Doha é um centro de comércio e finanças, sendo sede de várias sedes corporativas e organizações internacionais.
+            </p>
+            <a href="#" class="btn">Ver mais</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="imagens/Turquia.png" alt="">
+        <div class="content">
+            <h3>Lugares</h3>
+            <p>A Turquia é um país transcontinental localizado entre a Europa e a Ásia, com a maior parte de seu território na Anatólia (Ásia) e uma pequena parte na Trácia (Europa). É banhada pelo Mar Mediterrâneo ao sul, pelo Mar Egeu ao oeste e pelo Mar Negro ao norte. </p>
+            <a href="#" class="btn">Ver mais</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="imagens/canada.png" alt="">
+        <div class="content">
+            <h3>Lugares</h3>
+            <p>O Canadá é um país situado na América do Norte, conhecido por sua vasta extensão territorial, cobrindo quase 10 milhões de quilômetros quadrados, o que o torna o segundo maior país do mundo em área total. Sua capital é Ottawa, enquanto outras cidades importantes incluem Toronto, Vancouver, Montreal e Calgary.</p>
+            <a href="#" class="btn">Ver mais</a>
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+
+
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>a</span>
+        <span>v</span>
+        <span>a</span>
+        <span>l</span>
+        <span>i</span>
+        <span>a</span>
+        <span>ç</span>
+        <span>o</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="swiper mySwiper review-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img decoding="async" src="imagens/mulher1.png" alt="">
+                    <h3>Larrisa</h3>
+                    <p>Minha experiência com o Hotelz foi incrível! O site é fácil de usar, e encontrei um hotel com ótimo custo-benefício para minha viagem a São Paulo.
+                     A reserva foi confirmada rapidamente, e o atendimento ao cliente foi excelente.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img decoding="async" src="imagens/mulher2.png" alt="">
+                    <h3>Michelle</h3>
+                    <p>Hotelz me salvou em uma viagem de última hora. Encontrei um hotel próximo ao 
+                        aeroporto com desconto e fiz a reserva em poucos minutos. Recomendo!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img decoding="async" src="imagens/mulher(5).png" alt="">
+                    <h3>Ane</h3>
+                    <p>O Hotelz tem uma ampla seleção de hotéis em várias cidades. 
+                        Eu reservei um quarto em um hotel boutique no Rio de Janeiro e fiquei muito satisfeita com a qualidade e o preço.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img decoding="async" src="imagens/mulher3.png" alt="">
+                    <h3>Geovana</h3>
+                    <p>Hotelz é minha escolha número um para reservas de hotéis. 
+                        Sempre encontro ofertas especiais e acomodações que atendem às minhas necessidades. Não viajo sem conferir o site primeiro!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+                </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>t</span>
+        <span>o</span>
+    </h1>
+    <div class="row">
+        <div class="img">
+            <img decoding="async" src="imagens/fale.conosco.png" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="nome">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="numero">
+                <input type="text" placeholder="assunto">
+            </div>
+            <textarea placeholder="menssagem" name="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="enviar mensagem">
+        </form>
+    </div>
+</section>
+
+
+
+
+
+<section class="brand-container">
+    <div class="swiper mySwiper brand-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide"><img decoding="async" src="img/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img decoding="async" src="img/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img decoding="async" src="img/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img decoding="async" src="img/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img decoding="async" src="img/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img decoding="async" src="img/6.jpg" alt=""></div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>e</span>
+        <span class="space"></span>
+        <span>a</span>
+        <span>g</span>
+        <span>o</span>
+        <span>r</span>
+        <span>a</span>
+    </h1>
+
+    <div class="row">
+        <div class="img">
+            <img decoding="async" src="imagens/destino.png" alt="">
+        </div>
+
+        <form action="">
+              <div class="inputBox">
+                  <h3>Destino</h3>
+                  <input type="text" placeholder="Coloque seu nome">
+              </div>
+              <div class="inputBox">
+                <h3>Quantas pessoas</h3>
+                <input type="number" placeholder="Numero de pessoas">
+            </div>
+            <div class="inputBox">
+                <h3>Entrada</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Saida</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="Agende agora">
+        </form>
+    </div>
+</section>
+
+
+
+
+<section class="footer">
+    <div class="box-container">
+        
+        <div class="box">
+            <h3>Quem Somos</h3>
+            <p>A Holtelz é uma plataforma líder em reservas de hotéis, dedicada a proporcionar experiências excepcionais aos viajantes em todo o mundo. 
+            Com uma ampla rede de hotéis parceiros e uma equipe apaixonada, estamos comprometidos em oferecer hospitalidade verdadeira a cada hóspede.</p>
+        </div>
+        <div class="box">
+            <h3>Continentes</h3>
+            <a href="#">América do Sul</a>
+            <a href="#">América do Norte</a>
+            <a href="#">Asia</a>
+            <a href="#">Africa</a>
+            <a href="#">Europa</a>
+        </div>
+        <div class="box">
+            <h3>Contato</h3>
+            <a href="#">Vagas</a>
+            <a href="#">Paginas</a>
+            <a href="#">Serviços</a>
+            <a href="#">Galeria</a>
+            <a href="#">Noticias</a>
+            <a href="#">Contato</a>
+            <a href="#"></a>
+        </div>
+        <div class="box">
+            <h3>Redes Sociais</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Linkedin</a>
+        </div>
+    </div>
+    
+</section> <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js" defer data-deferred="1"></script>  <script src="main.js" defer data-deferred="1"></script> </body>
+</html>
